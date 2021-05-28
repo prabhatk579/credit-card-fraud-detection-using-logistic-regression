@@ -6,7 +6,6 @@
 - sklearn
 - matplotlib
 - seaborn
-- intertool
 
 In this project we try to detect credit card fraud using Logistic Regression also we preprocessing the data.
 
@@ -33,7 +32,7 @@ We are undersampling the data because our data is highly unbalanced. The number 
 
 The number of non fraudulent transactions are **284315** and the number of fradulent transactions are **492**.
 
-If we oversample our data so inclusion of almost **284000** dummy elements will surely affect our outcome by a huge margin and outcoem will be hugely biased as non fradulant so undersampling is a much better approach to get an optimal and desired outcome.
+If we oversample our data so inclusion of almost **284000** dummy elements will surely affect our outcome by a huge margin and it will be hugely biased as non-fradulant so undersampling is a much better approach to get an optimal and desired outcome.
 
 ## Confusion Matrix
 We create a user defined function for the confusion matrix or we can use `confusion_matrix` from `sklearn.matrics` library.
