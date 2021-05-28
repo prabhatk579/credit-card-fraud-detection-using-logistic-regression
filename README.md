@@ -1,4 +1,4 @@
-<h1 align = center>Credit Card Fraud Detection uisng Logistic Regression</h1>
+<h1 align = center>Credit Card Fraud Detection using Logistic Regression</h1>
 
 ## Requirements:
 - pandas
