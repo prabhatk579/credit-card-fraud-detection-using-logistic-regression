@@ -47,7 +47,6 @@ classifier = LogisticRegression()
 classifier.fit(X_train, y_train)
 pred = classifier.predict(X_train)
 print(classifier.score(X_train,y_train))
-
 ```
 We get accuracy of our training model more than 95% most of the time with random samples.
 The confusion matrix is as follows: 
